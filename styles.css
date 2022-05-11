@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 html {
   background-color: #181818;
 }
@@ -17,11 +21,12 @@ aside,
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3rem;
+  gap: 24px;
+  margin-top: 24px;
 }
 
 aside {
-  width: 150px;
+  width: 385px;
 }
 
 nav {
@@ -58,5 +63,36 @@ nav img:nth-child(1) {
 
 nav img:nth-child(2) {
   height: 36px;
-  padding: 8px 0px;
+  padding: 9px 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.description {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 8px;
+}
+
+.description h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.description p {
+  margin: 0;
+  color: #727272;
+  font-size: 0.8rem;
 }
