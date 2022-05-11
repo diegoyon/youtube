@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+html {
+  background-color: #181818;
+}
+
+nav,
+aside,
+.main,
+.video {
+  border: 1px solid red;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+aside {
+  width: 150px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #202020;
+  justify-content: space-between;
+}
+
+nav div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+nav div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+nav div:nth-child(3) img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav img:nth-child(1) {
+  height: 20px;
+}
+
+nav img:nth-child(2) {
+  height: 36px;
+  padding: 8px 0px;
+}
