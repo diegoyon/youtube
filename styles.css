@@ -10,12 +10,12 @@ html {
   background-color: #181818;
 }
 
-nav,
+/* nav,
 aside,
 .main,
 .video {
   border: 1px solid red;
-}
+} */
 
 .main {
   display: flex;
@@ -80,7 +80,6 @@ nav img:nth-child(2) {
   color: white;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   width: 100%;
   justify-content: space-around;
   padding-left: 8px;
